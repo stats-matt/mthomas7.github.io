@@ -1,3 +1,3 @@
-# mthomas7.github.io
+# Matt Thomas
 
 Matt's homepage
