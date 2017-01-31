@@ -10,6 +10,17 @@ title: Welcome
 
 Please excuse the state of this site right now. I am currently converting from an old format, and may take some time before it is back to normal.
 <br>
+---
+
+<img style="float: right; width: 25%; height: 25%" src="images/me.jpg"/>
+
+# Matt Thomas
+
+---
+
+I am an assistant professor of [mathematics](https://www.ithaca.edu/hs/depts/math/) at [Ithaca College](https://www.ithaca.edu/). You can contact me at mthomas7 at ithaca.edu.
+
+---
 <br>
 
 This website was created using <a href="https://pages.github.com">GitHub Pages</a> and <a href="http://jekyllrb.com">Jekyll</a> together with <a href="http://getbootstrap.com">Twitter Bootstrap</a>. You can find the <a href="https://github.com/mthomas7/mthomas7.github.io">source code</a> on GitHub, forked from Dana Ernst's website, <a href="https://dcernst.github.io">here</a>.
