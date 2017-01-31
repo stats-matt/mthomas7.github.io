@@ -12,4 +12,4 @@ Please excuse the state of this site right now. I am currently converting from a
 <br>
 <br>
 
-This website was created using <a href="https://pages.github.com">GitHub Pages</a> and <a href="http://jekyllrb.com">Jekyll</a> together with <a href="http://getbootstrap.com">Twitter Bootstrap</a>. You can find the <a href="https://github.com/dcernst/dcernst.github.io">source code</a> on GitHub.
+This website was created using <a href="https://pages.github.com">GitHub Pages</a> and <a href="http://jekyllrb.com">Jekyll</a> together with <a href="http://getbootstrap.com">Twitter Bootstrap</a>. You can find the <a href="https://github.com/mthomas7/mthomas7.github.io">source code</a> on GitHub, forked from Dana Ernst's website, <a href="https://dcernst.github.io">here</a>.
