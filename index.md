@@ -16,6 +16,8 @@ Please excuse the state of this site right now. I am currently converting from a
 
 I am an assistant professor of [mathematics](https://www.ithaca.edu/hs/depts/math/) at [Ithaca College](https://www.ithaca.edu/). You can contact me at mthomas7 at ithaca.edu.
 
+$\alpha$
+
 ---
 <br>
 
