@@ -1,1 +1,30 @@
-theme: jekyll-theme-cayman
+name: 'Matt Thomas'
+description: ''
+tagline: ''
+url: 'http://mthomas7.github.io'
+baseurl: ''
+paginate: 10
+
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: pretty
+# permalink: /:year/:month/:title/
+relative_permalinks: false
+
+# About/contact
+author: Matt Thomas
+twitter:
+  username: mthomas7
+
+# GitHub
+github:
+  repo: github.com/mthomas7/mthomas7.github.io
+
+# Feed Stuff
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
