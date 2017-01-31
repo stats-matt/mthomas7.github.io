@@ -12,7 +12,7 @@ title: Welcome
 
 Please excuse the state of this site right now. I am currently converting from an old format, and may take some time before it is back to normal.
 
-<img style="float: right; width: 25%; height: 25%" src="images/me.jpg"/>
+<img style="float: right; width: 20%; height: 20%" src="images/me.jpg"/>
 
 I am an assistant professor of [mathematics](https://www.ithaca.edu/hs/depts/math/) at [Ithaca College](https://www.ithaca.edu/). You can contact me at mthomas7 at ithaca.edu.
 
