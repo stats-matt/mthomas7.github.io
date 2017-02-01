@@ -8,7 +8,11 @@ title: Research
   <li class="active">Research</li>
 </ol>
 
-This page is under construction.
+This page is under heavy construction.
+
+---
+
+My research area is undergraduate mathematics education
 
 ---
 
