@@ -12,10 +12,6 @@ This page is under heavy construction.
 
 ---
 
-My research area is undergraduate mathematics education
-
----
-
 I was involved in the TeKno research project. More about this project is [here](https://sites.google.com/site/teknoresearchsite/home).
 
 ---
