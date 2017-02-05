@@ -10,11 +10,11 @@ title: Welcome
 
 ---
 
-Please excuse the state of this site right now. I am currently converting from an old format, and may take some time before it is back to normal.
-
 <img style="float: right; width: 20%; height: 20%" src="images/me.jpg"/>
 
-I am an assistant professor of [mathematics](https://www.ithaca.edu/hs/depts/math/) at [Ithaca College](https://www.ithaca.edu/). You can contact me at mthomas7 at ithaca.edu.
+I am an assistant professor of [mathematics](https://www.ithaca.edu/hs/depts/math/) at [Ithaca College](https://www.ithaca.edu/).
+<br>
+You can contact me at mthomas7 at ithaca.edu.
 
 ---
 <br>
@@ -49,5 +49,26 @@ I am an assistant professor of [mathematics](https://www.ithaca.edu/hs/depts/mat
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 This website was created using <a href="https://pages.github.com">GitHub Pages</a> and <a href="http://jekyllrb.com">Jekyll</a> together with <a href="http://getbootstrap.com">Twitter Bootstrap</a>. You can find the <a href="https://github.com/mthomas7/mthomas7.github.io">source code</a> on GitHub, forked from Dana Ernst's website, <a href="https://dcernst.github.io">here</a>.
+
+<div class="footer">
+
+<div class="container">
+<!-- <p class="text-muted"><i class="fa fa-creative-commons"></i>&nbsp; All work is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0 License</a>.</p> -->
+<p style="margin: 20px 0;"><i class="fa fa-creative-commons"></i>&nbsp; All work is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0 License</a>.</p>
+</div>
+
+</div>
