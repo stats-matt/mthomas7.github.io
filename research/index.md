@@ -8,11 +8,11 @@ title: Research
   <li class="active">Research</li>
 </ol>
 
-This page is under heavy construction.
+This page is under construction. Please contect me with questions.
 
 ---
 
-I was involved in the TeKno research project. More about this project is [here](https://sites.google.com/site/teknoresearchsite/home).
+During graduate school, I was involved in the TeKno research project. More about this project is [here](https://sites.google.com/site/teknoresearchsite/home).
 
 ---
 
