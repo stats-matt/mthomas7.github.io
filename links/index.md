@@ -85,13 +85,15 @@ These are some bookmarks which I have found useful.
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" href="#foss">Useful Software</a>
+        <a data-toggle="collapse" href="#software">Useful Software</a>
       </h4>
     </div>
-    <div id="foss" class="panel-collapse collapse">
+    <div id="software" class="panel-collapse collapse">
       <ul class="list-group">
+        <li class="list-group-item"><a href="rstudio.com">RStudio</a></li>
         <li class="list-group-item"><a href="http://www.sagemath.org">SageMath</a></li>
         <li class="list-group-item"><a href="https://cloud.sagemath.com">SageMathCloud</a></li>
+        <li class="list-group-item"><a href="http://texstudio.sourceforge.net">TeXstudio</a></li>
         <li class="list-group-item"><a href="https://www.geogebra.org">Geogebra</a></li>
         <li class="list-group-item"><a href="https://www.desmos.com">Desmos</a></li>
       </ul>
