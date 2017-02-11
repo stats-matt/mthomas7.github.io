@@ -52,8 +52,6 @@ These are some bookmarks which I have found useful.
             </div>
           </div>
         </li>
-        <li class="list-group-item">Two</li>
-        <li class="list-group-item">Three</li>
       </ul>
     </div>
   </div>
