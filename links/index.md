@@ -44,8 +44,8 @@ These are some bookmarks which I have found useful.
               </div>
               <div id="intro" class="panel-collapse collapse">
                 <ul class="list-group">
-                  <li class="list-group-item"><a href="https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-intro.html">Notes</a></li>
-                  <li class="list-group-item"><a href="http://tryr.codeschool.com"></a>CodeSchool</li>
+                  <li class="list-group-item"><a href="https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-intro.html"></a></li>
+                  <li class="list-group-item"><a href="http://tryr.codeschool.com">CodeSchool</a></li>
                   <li class="list-group-item"><a href="https://www.datacamp.com/courses/free-introduction-to-r">DataCamp</a></li>
                 </ul>
               </div>
