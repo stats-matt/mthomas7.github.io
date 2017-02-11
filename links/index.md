@@ -90,7 +90,7 @@ These are some bookmarks which I have found useful.
     </div>
     <div id="software" class="panel-collapse collapse">
       <ul class="list-group">
-        <li class="list-group-item"><a href="rstudio.com">RStudio</a></li>
+        <li class="list-group-item"><a href="http://rstudio.com">RStudio</a></li>
         <li class="list-group-item"><a href="http://www.sagemath.org">SageMath</a></li>
         <li class="list-group-item"><a href="https://cloud.sagemath.com">SageMathCloud</a></li>
         <li class="list-group-item"><a href="http://texstudio.sourceforge.net">TeXstudio</a></li>
