@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bookmarks
+title: Links
 ---
 
 <ol class="breadcrumb">
