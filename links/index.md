@@ -63,6 +63,11 @@ These are some bookmarks which I have found useful.
               <div id="moreR" class="panel-collapse collapse">
                 <ul class="list-group">
                   <li class="list-group-item"><a href="http://adv-r.had.co.nz">Advanced R</a></li>
+                  <li class="list-group-item"><a href="http://r4ds.had.co.nz">R For Data Science</a></li>
+                  <li class="list-group-item"><a href="https://www.uvm.edu/rsenr/vtcfwru/R/?Page=fledglings/fledglings.htm">R for Fledglings</a></li>
+                  <li class="list-group-item"><a href="http://rcompanion.org/rcompanion/index.html">An R Companion for the Handbook of Biological Statistics</a></li>
+                  <li class="list-group-item"><a href="https://cran.r-project.org/web/views/SocialSciences.html">Statistics for the Social Sciences</a></li>
+                  <li class="list-group-item"><a href="http://had.co.nz/notes/">Hadley's notes</a></li>
                 </ul>
               </div>
             </div>
