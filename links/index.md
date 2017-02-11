@@ -69,8 +69,7 @@ These are some bookmarks which I have found useful.
                   <li class="list-group-item"><a href="https://www.uvm.edu/rsenr/vtcfwru/R/?Page=fledglings/fledglings.htm">R for Fledglings</a></li>
                   <li class="list-group-item"><a href="http://rcompanion.org/rcompanion/index.html">An R Companion for the Handbook of Biological Statistics</a></li>
                   <li class="list-group-item"><a href="https://cran.r-project.org/web/views/SocialSciences.html">Statistics for the Social Sciences</a></li>
-                  <li class="list-group-item"><a href="http://had.co.nz/notes/">Hadley's notesmthomas7  e0ca24b09aefd8f310972f8a811d859b7d48645f
-                  </a></li>
+                  <li class="list-group-item"><a href="http://had.co.nz/notes/">Hadley's notes</a></li>
                 </ul>
               </div>
             </div>
