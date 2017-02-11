@@ -31,7 +31,7 @@ These are some bookmarks which I have found useful.
               </div>
               <div id="intro" class="panel-collapse collapse">
                 <ul class="list-group">
-                  <li class="list-group-item"><a href="https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-intro.html">Notes</a></li>
+                  <li class="list-group-item"><a href="https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-intro.html">R Manual</a></li>
                   <li class="list-group-item"><a href="http://tryr.codeschool.com">CodeSchool</a></li>
                   <li class="list-group-item"><a href="https://www.datacamp.com/courses/free-introduction-to-r">DataCamp</a></li>
                 </ul>
@@ -81,7 +81,23 @@ These are some bookmarks which I have found useful.
   </div>
 </div>
 
-
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#foss">Useful Software</a>
+      </h4>
+    </div>
+    <div id="foss" class="panel-collapse collapse">
+      <ul class="list-group">
+        <li class="list-group-item"><a href="http://www.sagemath.org">SageMath</a></li>
+        <li class="list-group-item"><a href="https://cloud.sagemath.com">SageMathCloud</a></li>
+        <li class="list-group-item"><a href="https://www.geogebra.org">Geogebra</a></li>
+        <li class="list-group-item"><a href="https://www.desmos.com">Desmos</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <!--
 <div class="panel-group">
