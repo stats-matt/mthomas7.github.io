@@ -21,7 +21,6 @@ title: Bookmarks
         <li class="list-group-item">Two</li>
         <li class="list-group-item">Three</li>
       </ul>
-      <div class="panel-footer">Footer</div>
     </div>
   </div>
 </div>
