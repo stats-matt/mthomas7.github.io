@@ -48,6 +48,7 @@ These are some bookmarks which I have found useful.
                   <li class="list-group-item"><a href="https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-intro.html">Notes</a></li>
                   <li class="list-group-item"><a href="http://tryr.codeschool.com"></a>CodeSchool</li>
                   <li class="list-group-item"><a href="https://www.datacamp.com/courses/free-introduction-to-r">DataCamp</a></li>
+                  <li class="list-group-item"><a href="https://www.rstudio.com/resources/cheatsheets/">Cheatsheets</a></li>
                 </ul>
               </div>
             </div>
