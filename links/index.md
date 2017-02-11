@@ -35,6 +35,7 @@ These are some bookmarks which I have found useful.
               </div>
             </div>
           </div>
+
           <div class="panel-group">
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -51,6 +52,24 @@ These are some bookmarks which I have found useful.
               </div>
             </div>
           </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" href="#moreR">Additional R</a>
+                </h4>
+              </div>
+              <div id="moreR" class="panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="http://adv-r.had.co.nz">Advanced R</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+
         </li>
       </ul>
     </div>
