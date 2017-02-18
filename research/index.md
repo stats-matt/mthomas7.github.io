@@ -8,7 +8,7 @@ title: Research
   <li class="active">Research</li>
 </ol>
 
-This page is under construction. Please contect me with questions.
+This page is currently very out-of-date construction. Please contact me with questions.
 
 ---
 
