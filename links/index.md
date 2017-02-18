@@ -5,7 +5,7 @@ title: Links
 
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
-  <li class="active">Bookmarks</li>
+  <li class="active">Links</li>
 </ol>
 
 These are some bookmarks which I have found useful.
