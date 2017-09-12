@@ -10,7 +10,7 @@ title: Research
 
 My research is in the field of Undergraduate Mathematics Education. To see publications, see my [research gate](https://www.researchgate.net/profile/Matt_Thomas3) or [google scholar](https://scholar.google.com/citations?hl=en&user=BiK7h4AAAAAJ&view_op=list_works&sortby=pubdate).
 
-I am currently working on understanding how students interact with and learn from calculus videos as part of the [Calculus Videos Project](calcvids.github.io).
+I am currently working on understanding how students interact with and learn from calculus videos as part of the [Calculus Videos Project](http://calcvids.github.io).
 
 ---
 
