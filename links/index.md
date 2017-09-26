@@ -72,6 +72,7 @@ These are some bookmarks which I have found useful.
                   <li class="list-group-item"><a href="http://had.co.nz/notes/">Hadley's notes</a></li>
                   <li class="list-group-item"><a href="http://www.cookbook-r.com">Cookbook for R</a></li>
                   <li class="list-group-item"><a href="https://peerj.com/collections/50-practicaldatascistats/">Practical Data Science for Stats - a PeerJ Collection</a></li>
+                  <li class="list-group-item"><a href="http://r4ds.had.co.nz/">R For Data Science</a></li>
                 </ul>
               </div>
             </div>
