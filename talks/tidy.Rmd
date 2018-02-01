@@ -1,0 +1,167 @@
+---
+title: "dplyr and ggplot2"
+author: "Matt Thomas"
+date: "January 31, 2018"
+output: ioslides_presentation
+---
+
+## The tidyverse
+
+"The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures." (https://www.tidyverse.org/)
+
+> * dplyr
+> * ggplot2
+> * stringr
+> * lubridate
+> * more...
+
+## dplyr
+
+* pipes
+* Good for data manipulation
+  * verbs
+
+## dplyr verbs
+
+hflights data set: flights from Houston in 2011
+  
+```{r}
+library(hflights)
+hflights
+```
+
+## glimpse
+With dplyr loaded:
+```{r include=FALSE}
+library(dplyr)
+```
+```{r}
+glimpse(hflights)
+```
+
+## Pipes: %>%
+
+* allow nested functions to be written in the order that you might think about them
+
+## Linear Model
+```{r}
+summary(lm(DepDelay~DepTime, data=hflights))
+```
+
+## Version 2
+```{r}
+mod1 <- lm(DepDelay~DepTime, data=hflights)
+summary(mod1)
+```
+
+## With pipes
+```{r}
+hflights %>% lm(DepDelay~DepTime, data=.) %>% summary()
+```
+
+## dplyr verbs
+
+* select()
+* filter()
+* mutate()
+* arrange()
+* group_by()
+* rename()
+* and more - e.g. for merging data frames
+
+
+## pipes with dplyr verbs
+
+```{r}
+hflights %>% 
+  filter(DayOfWeek==1) %>% 
+  group_by(UniqueCarrier) %>% 
+  summarize(MeanDistance=mean(Distance))
+```
+
+## ggplot: layered graphics
+
+```{r include=FALSE}
+library(ggplot2)
+```
+
+
+```{r}
+ggplot(aes(x = DepTime, y = DepDelay), data=hflights)
+```
+
+## Adding layers
+
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepTime, y = DepDelay), data=hflights)+geom_point()
+```
+
+## More layers
+
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepTime, y = DepDelay, color=UniqueCarrier), data=hflights)+
+  geom_point()
+```
+
+## More layers
+
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepTime, y = DepDelay), data=hflights)+
+  geom_point()+geom_smooth(method="lm", se=F)
+```
+
+
+## Different geoms
+```{r}
+ggplot(aes(x = DepDelay), data=hflights)
+```
+
+## Layers
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepDelay), data=hflights)+geom_histogram()
+```
+
+
+## Theme layer
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepDelay), data=hflights)+
+  geom_histogram()+
+  theme_bw()
+```
+
+## Theme layer
+
+```{r include=FALSE}
+library(ggthemes)
+```
+
+
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepDelay), data=hflights)+
+  geom_histogram()+
+  theme_economist()
+```
+
+## Theme layer
+
+```{r message=FALSE, warning=FALSE}
+ggplot(aes(x = DepTime, y = DepDelay, color=UniqueCarrier), data=hflights)+
+  geom_point()+
+  theme_fivethirtyeight()
+```
+
+## Lots of layers
+
+* boxplots
+* bargraphs
+* error bars
+* legends
+* rectangles
+* curves
+* "jitter"
+
+## Upshot
+
+* Packages extend the abilities of R to do *many* things
+* dplyr and ggplot are two packages which extend the capabilities of R in a particularly structured way
+
