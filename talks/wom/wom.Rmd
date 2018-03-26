@@ -168,6 +168,7 @@ What should a curve relating the abilities and probabilities look like? (Use abi
 
 <center>
 ![2](2.png)
+
 </center>
 
 
