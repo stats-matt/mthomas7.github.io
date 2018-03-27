@@ -181,7 +181,7 @@ What should a curve relating the abilities and probabilities look like? (Use abi
 * Let's fix it
     * Consider odds: $D_{Ai} = \frac{P_{Ai}}{1-P_{Ai}}$
     * $D_{Ai}$ lies between 0 and $\infty$.
-    * $\ln(D_{Ai})$ has domain $-\infty$ to $\infty$.
+    * $\ln(D_{Ai})$ lies between $-\infty$ and $\infty$.
 * Now, maybe $\ln(D_{Ai})-\ln(D_{Bi}) = \theta_A - \theta_B$, or equivalently, $\ln \left( \frac{P_{Ai}}{1-P_{Ai}} \right)-\ln \left( \frac{P_{Bi}}{1-P_{Bi}} \right) = \theta_A - \theta_B$
 
 ## What kind of function?
