@@ -1,5 +1,5 @@
 ---
-title: "Psychometrics: How Facebook Knows So Much about You"
+title: "Psychometrics and Hidden Variables"
 author: "Matt Thomas, mthomas7@ithaca.edu"
 css: pics.css
 output: 
@@ -19,12 +19,15 @@ knitr::opts_chunk$set(echo = FALSE)
 > - I don't actually know the details of facebook's particular implementation.
 > - Or how buzzfeed grades their quizzes.
 
+<!--
+
 ---
+
 
 <center>
 ![pasta](pasta.png)
 </center>
-
+-->
 ---
 
 <center>
@@ -214,12 +217,13 @@ P_{i,j} = \dfrac{e^{\theta_i-b_j}}{1+e^{\theta_i-b_j}}
 
 This is the probability that person $i$ will correctly answer question $j$ correctly.
 
+<!--
 ## A few items {#lrg}
 
 <center>
 ![3](3.png)
 </center>
-
+-->
 ## Some analysis!
 
 * Analyzing the test
@@ -238,6 +242,7 @@ This is the probability that person $i$ will correctly answer question $j$ corre
 * I like to spend at least a few moments alone every day
 * I prefer to work alone than with others
 
+<!--
 ## Rasch
 
 ```{r include=FALSE}
@@ -250,7 +255,7 @@ talk <- talk %>% select(-1)
 talk <- replace(talk, talk =="Disagree", 0)
 talk <- replace(talk, talk =="Agree", 1)
 
-names(talk) <- c("large crowd", "cautious","drained_after_out", "enjoy_large_gather", "risk_careful_research", "quiet_child", "space_myself", "every_moment_alone", "few_moments_alone", "work_alone")
+names(talk) <- c("large_crowd", "cautious","drained_after_out", "enjoy_large_gather", "risk_careful_research", "quiet_child", "space_myself", "every_moment_alone", "few_moments_alone", "work_alone")
 mod.rasch <- rasch(talk, constraint = cbind(ncol(talk) + 1, 1))
 mod.rasch
 ```
@@ -285,14 +290,13 @@ plot(mod.1pl)
 ```
 </center>
 
-<!--
 ## 1PL vs Rasch
 
 ```{r}
 anova(mod.rasch, mod.1pl)
 ```
 
--->
+
 
 ## 2PL
 
@@ -347,6 +351,8 @@ This means the curve for "large_crowd" is:
 $$\frac{exp(\theta+0.006014405)}{1+exp(\theta+0.006014405)}$$
 etc.
 
+-->
+
 ## A hypothetical person
 
 Suppose I said "agree" to everything before "enjoy_large_gather" and "disagree" to everything after
@@ -361,6 +367,7 @@ The "likelihood function" for my introversion is $p_1(\theta) \times p_2(\theta)
 
 What does this actually look like???
 
+<!--
 ---
 
 ```{r include=FALSE}
@@ -378,6 +385,6 @@ scores <- factor.scores(mod.rasch)
 scores$score.dat$z1
 ```
 
-
+-->
 
 
